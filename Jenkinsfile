@@ -34,7 +34,7 @@ pipeline {
 
         stage ('Deployment Stage') {
             steps {
-		    node ('dedgg') {
+		    node ('slave') {
                  echo "Hello worldsameesddr"
 		    }
             }
