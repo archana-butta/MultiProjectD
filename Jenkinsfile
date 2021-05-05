@@ -1,6 +1,6 @@
 pipeline {
 	
-    agent {label 'tomcat'}
+    agent {label 'slave'}
 	stages {
         stage ('Compile Stage') {
 
